@@ -1,0 +1,629 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Tamas Krutki, 2011.
+# Balázs Úr <urbalazs@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-16 00:22+0000\n"
+"PO-Revision-Date: 2012-06-12 21:40+0200\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: checkoutdialog.cpp:29
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Checkout"
+msgstr "<application>Git</application> lekérés (checkout)"
+
+#: checkoutdialog.cpp:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Checkout"
+msgstr "Lekérés (checkout)"
+
+#: checkoutdialog.cpp:53
+#, kde-format
+msgctxt "@option:radio Git Checkout"
+msgid "Branch:"
+msgstr "Ág:"
+
+#: checkoutdialog.cpp:60
+#, kde-format
+msgctxt "@option:radio Git Checkout"
+msgid "Tag:"
+msgstr "Címke:"
+
+#: checkoutdialog.cpp:70 pushdialog.cpp:80
+#, kde-format
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Opciók"
+
+#: checkoutdialog.cpp:75
+#, kde-format
+msgctxt "@option:check"
+msgid "Create New Branch: "
+msgstr "Új ág létrehozása: "
+
+#: checkoutdialog.cpp:76
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Create a new branch based on a selected branch or tag."
+msgstr "Új ág létrehozása egy kijelölt ágból vagy címkéből."
+
+#: checkoutdialog.cpp:91 pushdialog.cpp:83
+#, kde-format
+msgctxt "@option:check"
+msgid "Force"
+msgstr "Kényszerítés"
+
+#: checkoutdialog.cpp:92
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Discard local changes."
+msgstr "Helyi változások elvetése"
+
+#: checkoutdialog.cpp:124
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "There are no tags in this repository."
+msgstr "Nincsenek címkék ebben az adattárban."
+
+#: checkoutdialog.cpp:184
+#, kde-format
+msgctxt "@title:group"
+msgid "Branch Base"
+msgstr "Ág alap"
+
+#: checkoutdialog.cpp:185
+#, kde-format
+msgctxt "@title:group"
+msgid "Checkout"
+msgstr "Lekérés (checkout)"
+
+#: checkoutdialog.cpp:205
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You must enter a valid name for the new branch first."
+msgstr "Először egy érvényes nevet kell adnia az új ágnak."
+
+#: checkoutdialog.cpp:212
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A branch with the name '%1' already exists."
+msgstr "Már létezik egy '%1' nevű ág."
+
+#: checkoutdialog.cpp:219
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Branch names may not contain any whitespace."
+msgstr "Az ágak nevei nem tartalmazhatnak üreshely-karaktereket."
+
+#: checkoutdialog.cpp:226
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You must select a valid branch first."
+msgstr "Először ki kell választania egy érvényes ágat."
+
+#: checkoutdialog.cpp:247
+#, kde-format
+msgctxt ""
+"@item:intext Prepended to the current branch name to get the default name "
+"for a newly created branch"
+msgid "branch"
+msgstr "ág"
+
+#: commitdialog.cpp:26
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Commit"
+msgstr "<application>Git</application> kommit"
+
+#: commitdialog.cpp:37
+#, kde-format
+msgctxt "@action:button"
+msgid "Commit"
+msgstr "Kommit"
+
+#: commitdialog.cpp:46
+#, kde-format
+msgctxt "@title:group"
+msgid "Commit message"
+msgstr "Kommit-üzenet"
+
+#: commitdialog.cpp:63
+#, kde-format
+msgctxt "@option:check"
+msgid "Amend last commit"
+msgstr "Legutóbbi kommit helyesbítése"
+
+#: commitdialog.cpp:69
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "There is nothing to amend."
+msgstr "Nincs mit helyesbíteni."
+
+#: commitdialog.cpp:76
+#, kde-format
+msgctxt "@action:button Add Signed-Off line to the message widget"
+msgid "Sign off"
+msgstr "Aláírás (Sign off)"
+
+#: commitdialog.cpp:77
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add Signed-off-by line at the end of the commit message."
+msgstr "Signed-off-by sor hozzáadása a kommit-üzenet végéhez."
+
+#: commitdialog.cpp:134
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You must enter a commit message first."
+msgstr "Először be kell írnia egy kommit-üzenetet."
+
+#: fileviewgitplugin.cpp:46
+#, fuzzy, kde-kuit-format
+#| msgctxt "@action:inmenu"
+#| msgid "<application>Git</application> Remove"
+msgid "<application>Git</application> Revert"
+msgstr "Eltávolítás (<application>Git</application>)"
+
+#: fileviewgitplugin.cpp:52
+#, fuzzy, kde-kuit-format
+#| msgctxt "@action:inmenu"
+#| msgid "<application>Git</application> Add"
+msgid "<application>Git</application> Add"
+msgstr "Hozzáadás (<application>Git</application>)"
+
+#: fileviewgitplugin.cpp:58
+#, fuzzy, kde-kuit-format
+#| msgctxt "@title:window"
+#| msgid "<application>Git</application> Checkout"
+msgid "Show Local <application>Git</application> Changes"
+msgstr "<application>Git</application> lekérés (checkout)"
+
+#: fileviewgitplugin.cpp:64
+#, fuzzy, kde-kuit-format
+#| msgctxt "@action:inmenu"
+#| msgid "<application>Git</application> Remove"
+msgid "<application>Git</application> Remove"
+msgstr "Eltávolítás (<application>Git</application>)"
+
+#: fileviewgitplugin.cpp:70
+#, fuzzy, kde-kuit-format
+#| msgctxt "@action:inmenu"
+#| msgid "<application>Git</application> Checkout..."
+msgid "<application>Git</application> Checkout..."
+msgstr "<application>Git</application> lekérés..."
+
+#: fileviewgitplugin.cpp:76
+#, fuzzy, kde-kuit-format
+#| msgctxt "@action:inmenu"
+#| msgid "<application>Git</application> Commit..."
+msgid "<application>Git</application> Commit..."
+msgstr "Kommit... (<application>Git</application>)"
+
+#: fileviewgitplugin.cpp:82
+#, fuzzy, kde-kuit-format
+#| msgctxt "@action:inmenu"
+#| msgid "<application>Git</application> Create Tag..."
+msgid "<application>Git</application> Create Tag..."
+msgstr "Címke létrehozása... (<application>Git</application>)"
+
+#: fileviewgitplugin.cpp:87
+#, fuzzy, kde-kuit-format
+#| msgctxt "@action:inmenu"
+#| msgid "<application>Git</application> Push..."
+msgid "<application>Git</application> Push..."
+msgstr "Push... (<application>Git</application>)"
+
+#: fileviewgitplugin.cpp:91
+#, fuzzy, kde-kuit-format
+#| msgctxt "@action:inmenu"
+#| msgid "<application>Git</application> Pull..."
+msgid "<application>Git</application> Pull..."
+msgstr "Pull... (<application>Git</application>)"
+
+#: fileviewgitplugin.cpp:96
+#, fuzzy, kde-kuit-format
+#| msgctxt "@action:inmenu"
+#| msgid "<application>Git</application> Push..."
+msgid "<application>Git</application> Merge..."
+msgstr "Push... (<application>Git</application>)"
+
+#: fileviewgitplugin.cpp:100
+#, fuzzy, kde-kuit-format
+#| msgctxt "@action:inmenu"
+#| msgid "<application>Git</application> Commit..."
+msgid "<application>Git</application> Log..."
+msgstr "Kommit... (<application>Git</application>)"
+
+#: fileviewgitplugin.cpp:410
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Adding files to <application>Git</application> repository..."
+msgid "Adding files to <application>Git</application> repository..."
+msgstr "Fájlok hozzáadása a <application>Git</application> adattárhoz..."
+
+#: fileviewgitplugin.cpp:411
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Adding files to <application>Git</application> repository failed."
+msgid "Adding files to <application>Git</application> repository failed."
+msgstr ""
+"A fájlok hozzáadása a <application>Git</application> adattárhoz sikertelen "
+"volt."
+
+#: fileviewgitplugin.cpp:412
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Added files to <application>Git</application> repository."
+msgid "Added files to <application>Git</application> repository."
+msgstr ""
+"A fájlok hozzá lettek adva a <application>Git</application> adattárhoz."
+
+#: fileviewgitplugin.cpp:421
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Removing files from <application>Git</application> repository..."
+msgid "Removing files from <application>Git</application> repository..."
+msgstr "Fájlok eltávolítása a <application>Git</application> adattárból..."
+
+#: fileviewgitplugin.cpp:422
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid ""
+#| "Removing files from <application>Git</application> repository failed."
+msgid "Removing files from <application>Git</application> repository failed."
+msgstr ""
+"A fájlok eltávolítása a <application>Git</application> adattárból sikertelen "
+"volt."
+
+#: fileviewgitplugin.cpp:423
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Removed files from <application>Git</application> repository."
+msgid "Removed files from <application>Git</application> repository."
+msgstr ""
+"A fájlok el lettek távolítva a <application>Git</application> adattárból."
+
+#: fileviewgitplugin.cpp:429
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Removing files from <application>Git</application> repository..."
+msgid "Reverting files from <application>Git</application> repository..."
+msgstr "Fájlok eltávolítása a <application>Git</application> adattárból..."
+
+#: fileviewgitplugin.cpp:430
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid ""
+#| "Removing files from <application>Git</application> repository failed."
+msgid "Reverting files from <application>Git</application> repository failed."
+msgstr ""
+"A fájlok eltávolítása a <application>Git</application> adattárból sikertelen "
+"volt."
+
+#: fileviewgitplugin.cpp:431
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Removed files from <application>Git</application> repository."
+msgid "Reverted files from <application>Git</application> repository."
+msgstr ""
+"A fájlok el lettek távolítva a <application>Git</application> adattárból."
+
+#: fileviewgitplugin.cpp:473
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "<application>Git</application> tag creation failed."
+msgid "<application>Git</application> Log failed."
+msgstr "A <application>Git</application> címkekészítés sikertelen volt."
+
+#: fileviewgitplugin.cpp:492
+#, fuzzy, kde-kuit-format
+#| msgctxt "@action:inmenu"
+#| msgid "<application>Git</application> Add"
+msgid "<application>Git</application> Log"
+msgstr "Hozzáadás (<application>Git</application>)"
+
+#: fileviewgitplugin.cpp:508
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Commit"
+msgctxt "Git commit hash"
+msgid "Commit"
+msgstr "Kommit"
+
+#: fileviewgitplugin.cpp:509
+#, kde-format
+msgctxt "Git commit date"
+msgid "Date"
+msgstr ""
+
+#: fileviewgitplugin.cpp:510
+#, fuzzy, kde-format
+#| msgctxt "@label:textbox"
+#| msgid "Tag Message:"
+msgctxt "Git commit message"
+msgid "Message"
+msgstr "Címke üzenet:"
+
+#: fileviewgitplugin.cpp:511
+#, kde-format
+msgctxt "Git commit author"
+msgid "Author"
+msgstr ""
+
+#: fileviewgitplugin.cpp:555
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Switched to branch '%1'"
+msgid "Switched to branch '%1'"
+msgstr "Átváltva erre az ágra: '%1'"
+
+#: fileviewgitplugin.cpp:561
+#, fuzzy, kde-kuit-format
+#| msgctxt ""
+#| "@info:status Git HEAD pointer, parameter includes short SHA-1 & commit "
+#| "message "
+#| msgid "HEAD is now at %1"
+msgid "HEAD is now at %1"
+msgstr "A HEAD jelenleg itt: %1"
+
+#: fileviewgitplugin.cpp:565
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Switched to a new branch '%1'"
+msgid "Switched to a new branch '%1'"
+msgstr "Átváltva egy új ágra: '%1'"
+
+#: fileviewgitplugin.cpp:576
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid ""
+#| "<application>Git</application> Checkout failed. Maybe your working "
+#| "directory is dirty."
+msgid ""
+"<application>Git</application> Checkout failed. Maybe your working directory "
+"is dirty."
+msgstr ""
+"A <application>Git</application> lekérés (checkout) sikertelen volt. Talán a "
+"munkakönyvtár szennyezett."
+
+#: fileviewgitplugin.cpp:640
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Successfully created tag '%1'"
+msgid "Successfully created tag '%1'"
+msgstr "A címke sikeresen létrehozva: '%1'"
+
+#: fileviewgitplugin.cpp:645
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid ""
+#| "<application>Git</application> tag creation failed. A tag with the name "
+#| "'%1' already exists."
+msgid ""
+"<application>Git</application> tag creation failed. A tag with the name '%1' "
+"already exists."
+msgstr ""
+"A <application>Git</application> címkekészítés sikertelen volt. Már létezik "
+"'%1' nevű címke."
+
+#: fileviewgitplugin.cpp:647
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "<application>Git</application> tag creation failed."
+msgid "<application>Git</application> tag creation failed."
+msgstr "A <application>Git</application> címkekészítés sikertelen volt."
+
+#: fileviewgitplugin.cpp:659
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Pushing branch %1 to %2:%3 failed."
+msgid "Pushing branch %1 to %2:%3 failed."
+msgstr "A push ágművelet (%1 -> %2:%3) sikertelen volt."
+
+#: fileviewgitplugin.cpp:661
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Pushed branch %1 to %2:%3."
+msgid "Pushed branch %1 to %2:%3."
+msgstr "A push ágművelet befejeződött (%1 -> %2:%3)."
+
+#: fileviewgitplugin.cpp:663
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Pushing branch %1 to %2:%3..."
+msgid "Pushing branch %1 to %2:%3..."
+msgstr "Push ágművelet: %1 -> %2:%3"
+
+#: fileviewgitplugin.cpp:685
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Pulling branch %1 from %2 failed."
+msgid "Pulling branch %1 from %2 failed."
+msgstr "A pull művelet (ezt az ágat: %1, innen: %2) sikertelen volt."
+
+#: fileviewgitplugin.cpp:687
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Pulled branch %1 from %2 successfully."
+msgid "Pulled branch %1 from %2 successfully."
+msgstr "A pull művelet sikeres volt (ezt az ágat: %1, innen: %2)."
+
+#: fileviewgitplugin.cpp:689
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Pulling branch %1 from %2..."
+msgid "Pulling branch %1 from %2..."
+msgstr "Pull ágművelet folyamatban... (ezt az ágat: %1, innen: %2)"
+
+#: fileviewgitplugin.cpp:742 fileviewgitplugin.cpp:754
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Branch is already up-to-date."
+msgid "Branch is already up-to-date."
+msgstr "Az ág már a lehető legfrissebb."
+
+#: fileviewgitplugin.cpp:758
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Merge conflicts occurred. Fix them and commit the result."
+msgid "Merge conflicts occurred. Fix them and commit the result."
+msgstr ""
+"Egyesítés konfliktus történt. Javítsa azokat és véglegesítse az eredményt."
+
+#. i18n: ectx: label, entry (commitDialogHeight), group (CommitDialogSettings)
+#: fileviewgitpluginsettings.kcfg:7
+#, kde-format
+msgid "Dialog height"
+msgstr "Párbeszédablak magassága"
+
+#. i18n: ectx: label, entry (commitDialogWidth), group (CommitDialogSettings)
+#: fileviewgitpluginsettings.kcfg:12
+#, kde-format
+msgid "Dialog width"
+msgstr "Párbeszédablak szélessége"
+
+#: pulldialog.cpp:24
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Pull"
+msgstr "Pull (<application>Git</application>)"
+
+#: pulldialog.cpp:35
+#, kde-format
+msgctxt "@action:button"
+msgid "Pull"
+msgstr "Pull"
+
+#: pulldialog.cpp:44
+#, kde-format
+msgctxt "@title:group The source to pull from"
+msgid "Source"
+msgstr "Forrás"
+
+#: pulldialog.cpp:50 pushdialog.cpp:51
+#, kde-format
+msgctxt "@label:listbox a git remote"
+msgid "Remote:"
+msgstr "Git remote:"
+
+#: pulldialog.cpp:55
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Remote branch:"
+msgstr "Távoli ág:"
+
+#: pushdialog.cpp:25
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Push"
+msgstr "Push (<application>Git</application>)"
+
+#: pushdialog.cpp:37
+#, kde-format
+msgctxt "@action:button"
+msgid "Push"
+msgstr "Push"
+
+#: pushdialog.cpp:47
+#, kde-format
+msgctxt "@title:group The remote host"
+msgid "Destination"
+msgstr "Cél"
+
+#: pushdialog.cpp:61
+#, kde-format
+msgctxt "@title:group"
+msgid "Branches"
+msgstr "Ágak"
+
+#: pushdialog.cpp:65
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Local Branch:"
+msgstr "Helyi ág:"
+
+#: pushdialog.cpp:72
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Remote Branch:"
+msgstr "Távoli ág:"
+
+#: pushdialog.cpp:84
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Proceed even if the remote branch is not an ancestor of the local branch."
+msgstr "Végrehajtás akkor is, ha a helyi ág nem a távoli ág leszármazottja."
+
+#: tagdialog.cpp:29
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Create Tag"
+msgstr "Címke létrehozása (<application>Git</application>)"
+
+#: tagdialog.cpp:41
+#, kde-format
+msgctxt "@action:button"
+msgid "Create Tag"
+msgstr "Címke létrehozása"
+
+#: tagdialog.cpp:50
+#, kde-format
+msgctxt "@title:group"
+msgid "Tag Information"
+msgstr "Címke-információ"
+
+#: tagdialog.cpp:54
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Tag Name:"
+msgstr "Címke neve:"
+
+#: tagdialog.cpp:62
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Tag Message:"
+msgstr "Címke üzenet:"
+
+#: tagdialog.cpp:73
+#, kde-format
+msgctxt "@title:group"
+msgid "Attach to"
+msgstr "Csatolás ehhez:"
+
+#: tagdialog.cpp:80
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Branch:"
+msgstr "Ág:"
+
+#: tagdialog.cpp:126
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You must enter a tag name first."
+msgstr "Előbb meg kell adnia egy címkenevet."
+
+#: tagdialog.cpp:129
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Tag names may not contain any whitespace."
+msgstr "A címkenevekben nem lehet üreshely-karaktereket használni."
+
+#: tagdialog.cpp:132
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A tag named '%1' already exists."
+msgstr "Már van '%1' nevű címke."

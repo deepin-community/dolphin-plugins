@@ -1,0 +1,32 @@
+{
+    "KPlugin": {
+        "MimeTypes": [
+            "text/plain"
+        ],
+        "Name": "Dropbox",
+        "Name[az]": "Dropbox",
+        "Name[ca@valencia]": "Dropbox",
+        "Name[ca]": "Dropbox",
+        "Name[cs]": "Dropbox",
+        "Name[de]": "Dropbox",
+        "Name[en_GB]": "Dropbox",
+        "Name[es]": "Dropbox",
+        "Name[eu]": "Dropbox",
+        "Name[fr]": "Dropbox",
+        "Name[it]": "Dropbox",
+        "Name[ko]": "Dropbox",
+        "Name[nl]": "Dropbox",
+        "Name[pl]": "Dropbox",
+        "Name[pt]": "Dropbox",
+        "Name[pt_BR]": "Dropbox",
+        "Name[sk]": "Dropbox",
+        "Name[sl]": "Dropbox",
+        "Name[sv]": "Dropbox",
+        "Name[tr]": "Dropbox",
+        "Name[uk]": "Dropbox",
+        "Name[vi]": "Dropbox",
+        "Name[x-test]": "xxDropboxxx",
+        "Name[zh_CN]": "Dropbox"
+    },
+    "MimeType": "text/plain;"
+}

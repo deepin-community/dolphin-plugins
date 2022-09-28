@@ -1,0 +1,535 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Stefan Asserhall <stefan.asserhall@bredband.net>, 2010, 2012, 2015, 2016, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-16 00:22+0000\n"
+"PO-Revision-Date: 2018-02-10 09:52+0100\n"
+"Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
+"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: checkoutdialog.cpp:29
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Checkout"
+msgstr "<application>Git</application> utcheckning"
+
+#: checkoutdialog.cpp:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Checkout"
+msgstr "Checka ut"
+
+#: checkoutdialog.cpp:53
+#, kde-format
+msgctxt "@option:radio Git Checkout"
+msgid "Branch:"
+msgstr "Gren:"
+
+#: checkoutdialog.cpp:60
+#, kde-format
+msgctxt "@option:radio Git Checkout"
+msgid "Tag:"
+msgstr "Tagg:"
+
+#: checkoutdialog.cpp:70 pushdialog.cpp:80
+#, kde-format
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Alternativ"
+
+#: checkoutdialog.cpp:75
+#, kde-format
+msgctxt "@option:check"
+msgid "Create New Branch: "
+msgstr "Skapa ny gren: "
+
+#: checkoutdialog.cpp:76
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Create a new branch based on a selected branch or tag."
+msgstr "Skapa en ny gren baserad på en vald gren eller tagg."
+
+#: checkoutdialog.cpp:91 pushdialog.cpp:83
+#, kde-format
+msgctxt "@option:check"
+msgid "Force"
+msgstr "Tvinga"
+
+#: checkoutdialog.cpp:92
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Discard local changes."
+msgstr "Kasta lokala ändringar."
+
+#: checkoutdialog.cpp:124
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "There are no tags in this repository."
+msgstr "Det finns inga taggar i arkivet."
+
+#: checkoutdialog.cpp:184
+#, kde-format
+msgctxt "@title:group"
+msgid "Branch Base"
+msgstr "Grenbas"
+
+#: checkoutdialog.cpp:185
+#, kde-format
+msgctxt "@title:group"
+msgid "Checkout"
+msgstr "Checka ut"
+
+#: checkoutdialog.cpp:205
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You must enter a valid name for the new branch first."
+msgstr "Du måste först ange ett giltigt namn på den nya grenen."
+
+#: checkoutdialog.cpp:212
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A branch with the name '%1' already exists."
+msgstr "En gren med namnet '%1' finns redan."
+
+#: checkoutdialog.cpp:219
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Branch names may not contain any whitespace."
+msgstr "Namn på grenar får inte innehålla några blanktecken."
+
+#: checkoutdialog.cpp:226
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You must select a valid branch first."
+msgstr "Du måste först välja en giltig gren."
+
+#: checkoutdialog.cpp:247
+#, kde-format
+msgctxt ""
+"@item:intext Prepended to the current branch name to get the default name "
+"for a newly created branch"
+msgid "branch"
+msgstr "branch"
+
+#: commitdialog.cpp:26
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Commit"
+msgstr "Arkivera i <application>Git</application>"
+
+#: commitdialog.cpp:37
+#, kde-format
+msgctxt "@action:button"
+msgid "Commit"
+msgstr "Arkivera"
+
+#: commitdialog.cpp:46
+#, kde-format
+msgctxt "@title:group"
+msgid "Commit message"
+msgstr "Arkiveringsmeddelande"
+
+#: commitdialog.cpp:63
+#, kde-format
+msgctxt "@option:check"
+msgid "Amend last commit"
+msgstr "Rätta till senaste arkivering"
+
+#: commitdialog.cpp:69
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "There is nothing to amend."
+msgstr "Det finns ingenting att rätta till."
+
+#: commitdialog.cpp:76
+#, kde-format
+msgctxt "@action:button Add Signed-Off line to the message widget"
+msgid "Sign off"
+msgstr "Bekräfta"
+
+#: commitdialog.cpp:77
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add Signed-off-by line at the end of the commit message."
+msgstr "Lägg till rad med bekräftas av sist i arkiveringsmeddelandet."
+
+#: commitdialog.cpp:134
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You must enter a commit message first."
+msgstr "Du måste först ange ett arkiveringsmeddelande."
+
+#: fileviewgitplugin.cpp:46
+#, kde-kuit-format
+msgid "<application>Git</application> Revert"
+msgstr "<application>Git</application> återställ"
+
+#: fileviewgitplugin.cpp:52
+#, kde-kuit-format
+msgid "<application>Git</application> Add"
+msgstr "Lägg till i <application>Git</application>"
+
+#: fileviewgitplugin.cpp:58
+#, kde-kuit-format
+msgid "Show Local <application>Git</application> Changes"
+msgstr "Visa lokala <application>Git</application>-ändringar"
+
+#: fileviewgitplugin.cpp:64
+#, kde-kuit-format
+msgid "<application>Git</application> Remove"
+msgstr "Ta bort från <application>Git</application>"
+
+#: fileviewgitplugin.cpp:70
+#, kde-kuit-format
+msgid "<application>Git</application> Checkout..."
+msgstr "<application>Git</application> utcheckning..."
+
+#: fileviewgitplugin.cpp:76
+#, kde-kuit-format
+msgid "<application>Git</application> Commit..."
+msgstr "Arkivera i <application>Git</application>..."
+
+#: fileviewgitplugin.cpp:82
+#, kde-kuit-format
+msgid "<application>Git</application> Create Tag..."
+msgstr "Skapa tagg i <application>Git</application>..."
+
+#: fileviewgitplugin.cpp:87
+#, kde-kuit-format
+msgid "<application>Git</application> Push..."
+msgstr "Skicka i <application>Git</application>..."
+
+#: fileviewgitplugin.cpp:91
+#, kde-kuit-format
+msgid "<application>Git</application> Pull..."
+msgstr "Hämta med <application>Git</application>..."
+
+#: fileviewgitplugin.cpp:96
+#, kde-kuit-format
+msgid "<application>Git</application> Merge..."
+msgstr "Sammanfoga i <application>Git</application>..."
+
+#: fileviewgitplugin.cpp:100
+#, kde-kuit-format
+msgid "<application>Git</application> Log..."
+msgstr "<application>Git</application> logg..."
+
+#: fileviewgitplugin.cpp:410
+#, kde-kuit-format
+msgid "Adding files to <application>Git</application> repository..."
+msgstr "Lägger till filer i <application>Git</application>-arkiv..."
+
+#: fileviewgitplugin.cpp:411
+#, kde-kuit-format
+msgid "Adding files to <application>Git</application> repository failed."
+msgstr "Misslyckades lägga till filer i <application>Git</application>-arkiv."
+
+#: fileviewgitplugin.cpp:412
+#, kde-kuit-format
+msgid "Added files to <application>Git</application> repository."
+msgstr "Filer tillagda i <application>Git</application>-arkiv."
+
+#: fileviewgitplugin.cpp:421
+#, kde-kuit-format
+msgid "Removing files from <application>Git</application> repository..."
+msgstr "Tar bort filer från <application>Git</application>-arkiv..."
+
+#: fileviewgitplugin.cpp:422
+#, kde-kuit-format
+msgid "Removing files from <application>Git</application> repository failed."
+msgstr "Misslyckades ta bort filer från <application>Git</application>-arkiv."
+
+#: fileviewgitplugin.cpp:423
+#, kde-kuit-format
+msgid "Removed files from <application>Git</application> repository."
+msgstr "Filer borttagna från <application>Git</application>-arkiv."
+
+#: fileviewgitplugin.cpp:429
+#, kde-kuit-format
+msgid "Reverting files from <application>Git</application> repository..."
+msgstr "Återställer filer från <application>Git</application>-arkiv..."
+
+#: fileviewgitplugin.cpp:430
+#, kde-kuit-format
+msgid "Reverting files from <application>Git</application> repository failed."
+msgstr ""
+"Misslyckades återställa filer från <application>Git</application>-arkiv."
+
+#: fileviewgitplugin.cpp:431
+#, kde-kuit-format
+msgid "Reverted files from <application>Git</application> repository."
+msgstr "Återställde filer från <application>Git</application>-arkiv."
+
+#: fileviewgitplugin.cpp:473
+#, kde-kuit-format
+msgid "<application>Git</application> Log failed."
+msgstr "<application>Git</application> logg misslyckades."
+
+#: fileviewgitplugin.cpp:492
+#, kde-kuit-format
+msgid "<application>Git</application> Log"
+msgstr "<application>Git</application> logg"
+
+#: fileviewgitplugin.cpp:508
+#, kde-format
+msgctxt "Git commit hash"
+msgid "Commit"
+msgstr "Arkivera"
+
+#: fileviewgitplugin.cpp:509
+#, kde-format
+msgctxt "Git commit date"
+msgid "Date"
+msgstr "Datum"
+
+#: fileviewgitplugin.cpp:510
+#, kde-format
+msgctxt "Git commit message"
+msgid "Message"
+msgstr "Meddelande"
+
+#: fileviewgitplugin.cpp:511
+#, kde-format
+msgctxt "Git commit author"
+msgid "Author"
+msgstr "Upphovsman"
+
+#: fileviewgitplugin.cpp:555
+#, kde-kuit-format
+msgid "Switched to branch '%1'"
+msgstr "Bytte till grenen '%1'"
+
+#: fileviewgitplugin.cpp:561
+#, kde-kuit-format
+msgid "HEAD is now at %1"
+msgstr "HEAD är nu på %1"
+
+#: fileviewgitplugin.cpp:565
+#, kde-kuit-format
+msgid "Switched to a new branch '%1'"
+msgstr "Bytte till en ny gren '%1'"
+
+#: fileviewgitplugin.cpp:576
+#, kde-kuit-format
+msgid ""
+"<application>Git</application> Checkout failed. Maybe your working directory "
+"is dirty."
+msgstr ""
+"Utcheckning i <application>Git</application> misslyckades. Kanske är "
+"arbetskatalogen ostädad."
+
+#: fileviewgitplugin.cpp:640
+#, kde-kuit-format
+msgid "Successfully created tag '%1'"
+msgstr "Skapade tagg '%1' med lyckat resultat"
+
+#: fileviewgitplugin.cpp:645
+#, kde-kuit-format
+msgid ""
+"<application>Git</application> tag creation failed. A tag with the name '%1' "
+"already exists."
+msgstr ""
+"Misslyckades skapa tagg i <application>Git</application>. En tagg med namnet "
+"'%1' finns redan."
+
+#: fileviewgitplugin.cpp:647
+#, kde-kuit-format
+msgid "<application>Git</application> tag creation failed."
+msgstr "Misslyckades skapa tagg i <application>Git</application>"
+
+#: fileviewgitplugin.cpp:659
+#, kde-kuit-format
+msgid "Pushing branch %1 to %2:%3 failed."
+msgstr "Misslyckades skicka gren %1 till %2:%3."
+
+#: fileviewgitplugin.cpp:661
+#, kde-kuit-format
+msgid "Pushed branch %1 to %2:%3."
+msgstr "Skickade gren %1 till %2:%3."
+
+#: fileviewgitplugin.cpp:663
+#, kde-kuit-format
+msgid "Pushing branch %1 to %2:%3..."
+msgstr "Skickar gren %1 till %2:%3..."
+
+#: fileviewgitplugin.cpp:685
+#, kde-kuit-format
+msgid "Pulling branch %1 from %2 failed."
+msgstr "Misslyckades hämta gren %1 från %2."
+
+#: fileviewgitplugin.cpp:687
+#, kde-kuit-format
+msgid "Pulled branch %1 from %2 successfully."
+msgstr "Hämtade gren %1 från %2 med lyckat resultat."
+
+#: fileviewgitplugin.cpp:689
+#, kde-kuit-format
+msgid "Pulling branch %1 from %2..."
+msgstr "Hämtar gren %1 från %2..."
+
+#: fileviewgitplugin.cpp:742 fileviewgitplugin.cpp:754
+#, kde-kuit-format
+msgid "Branch is already up-to-date."
+msgstr "Grenen är redan aktuell."
+
+#: fileviewgitplugin.cpp:758
+#, kde-kuit-format
+msgid "Merge conflicts occurred. Fix them and commit the result."
+msgstr ""
+"Konflikter uppstod vid sammanfogning. Rätta dem och arkivera resultatet."
+
+#. i18n: ectx: label, entry (commitDialogHeight), group (CommitDialogSettings)
+#: fileviewgitpluginsettings.kcfg:7
+#, kde-format
+msgid "Dialog height"
+msgstr "Dialogrutans höjd"
+
+#. i18n: ectx: label, entry (commitDialogWidth), group (CommitDialogSettings)
+#: fileviewgitpluginsettings.kcfg:12
+#, kde-format
+msgid "Dialog width"
+msgstr "Dialogrutans bredd"
+
+#: pulldialog.cpp:24
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Pull"
+msgstr "Hämta med <application>Git</application>"
+
+#: pulldialog.cpp:35
+#, kde-format
+msgctxt "@action:button"
+msgid "Pull"
+msgstr "Hämta"
+
+#: pulldialog.cpp:44
+#, kde-format
+msgctxt "@title:group The source to pull from"
+msgid "Source"
+msgstr "Källa"
+
+#: pulldialog.cpp:50 pushdialog.cpp:51
+#, kde-format
+msgctxt "@label:listbox a git remote"
+msgid "Remote:"
+msgstr "Fjärrdator:"
+
+#: pulldialog.cpp:55
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Remote branch:"
+msgstr "Fjärrgren:"
+
+#: pushdialog.cpp:25
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Push"
+msgstr "Skicka i <application>Git</application>"
+
+#: pushdialog.cpp:37
+#, kde-format
+msgctxt "@action:button"
+msgid "Push"
+msgstr "Skicka"
+
+#: pushdialog.cpp:47
+#, kde-format
+msgctxt "@title:group The remote host"
+msgid "Destination"
+msgstr "Mål"
+
+#: pushdialog.cpp:61
+#, kde-format
+msgctxt "@title:group"
+msgid "Branches"
+msgstr "Grenar"
+
+#: pushdialog.cpp:65
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Local Branch:"
+msgstr "Lokal gren:"
+
+#: pushdialog.cpp:72
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Remote Branch:"
+msgstr "Fjärrgren:"
+
+#: pushdialog.cpp:84
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Proceed even if the remote branch is not an ancestor of the local branch."
+msgstr ""
+"Fortsätt även om fjärrgrenen inte är en anfader till den lokala grenen."
+
+#: tagdialog.cpp:29
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Create Tag"
+msgstr "Skapa tagg i <application>Git</application>"
+
+#: tagdialog.cpp:41
+#, kde-format
+msgctxt "@action:button"
+msgid "Create Tag"
+msgstr "Skapa tagg"
+
+#: tagdialog.cpp:50
+#, kde-format
+msgctxt "@title:group"
+msgid "Tag Information"
+msgstr "Tagginformation"
+
+#: tagdialog.cpp:54
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Tag Name:"
+msgstr "Taggnamn:"
+
+#: tagdialog.cpp:62
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Tag Message:"
+msgstr "Taggmeddelande:"
+
+#: tagdialog.cpp:73
+#, kde-format
+msgctxt "@title:group"
+msgid "Attach to"
+msgstr "Anslut till"
+
+#: tagdialog.cpp:80
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Branch:"
+msgstr "Gren:"
+
+#: tagdialog.cpp:126
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You must enter a tag name first."
+msgstr "Du måste först ange ett taggnamn."
+
+#: tagdialog.cpp:129
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Tag names may not contain any whitespace."
+msgstr "Namn på taggar får inte innehålla några blanktecken."
+
+#: tagdialog.cpp:132
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A tag named '%1' already exists."
+msgstr "En tagg med namn '%1' finns redan."

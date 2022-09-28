@@ -1,0 +1,57 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Dolphin Plugins
+Upstream-Contact: Jeremy Paul Whiting <jpwhiting@kde.org>
+                  Michael Pyne <mpyne@kde.org>
+                  Sebastian Doerner <sebastian@sebastian-doerner.de>
+Source: https://download.kde.org/
+
+Files: *
+Copyright: 2011, Canonical Ltd
+           2014, Emmanuel Pescosta <emmanuelpescosta099@gmail.com>
+           1989-1991, Free Software Foundation, Inc
+           2010, Johannes Steffen <johannes.steffen@st.ovgu.de>
+           2010, Johannes Steffen <jsteffen@st.ovgu.de>
+           2009-2011, Peter Penz <peter.penz19@gmail.com>
+           2009-2010, Peter Penz <peter.penz@gmx.at>
+           2010, Sebastian Doerner <sebastian@sebastian-doerner.de>
+           2012, Sergei Stolyarov <sergei@regolit.com>
+           2010, Thomas Richard <thomas.richard@proan.be>
+           2011, Vishesh Yadav <vishesh3y@gmail.com>
+License: GPL-2+
+
+Files: org.kde.dolphin-plugins.metainfo.xml
+Copyright: 2019, Jonathan Riddell <jr@jriddell.org>
+License: CC0-1.0
+
+Files: debian/*
+Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
+
+License: CC0-1.0
+ To the extent possible under law, the author(s) have dedicated all copyright
+ and related and neighboring rights to this software to the public domain
+ worldwide. This software is distributed without any warranty.
+ .
+ You should have received a copy of the CC0 Public Domain Dedication along
+ with this software. If not, see
+ <https://creativecommons.org/publicdomain/zero/1.0/>.
+ .
+ On Debian systems, the complete text of the CC0 Public Domain Dedication
+ can be found in "/usr/share/common-licenses/CC0-1.0".
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ --
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in `/usr/share/common-licenses/GPL-2'.
